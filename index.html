@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Page title -->
+        <title>Coding workshops and more by Renzil</title>
+
+        <meta property="og:title" content="Coding workshops and more by Renzil">
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://renzil.com/assets/banner.png">
+        <meta property="og:url" content="https://renzil.com/">
+        <meta property="og:description" content="I have been coding since I was 13. I have spent more than a decade working for Adobe designing large software systems and have received numerous engineering awards and patents for my work. I enjoy coming up with new ideas and coding them, and I am currently helping others bring their ideas to life. Sign up for one of my upcoming workshops below.">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- Google Fonts CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        
+        <!-- Reset the CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        
+        <!-- Document CSS -->
+        <style>
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+            }
+
+            h1, h2, h3 {
+                font-family: 'Bungee', cursive;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 24px;
+            }
+
+            main {
+                max-width: 720px;
+            }
+
+            nav {
+                margin-bottom: 16px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            section {
+                margin-bottom: 32px;
+            }
+
+            #banner {
+                display: flex;
+                align-items: center;
+                margin-bottom: 64px;
+            }
+
+            #banner h1 {
+                max-width: 50%;
+            }
+
+            #signup_button_container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #signup_button_container button {
+                border: none;
+                border-radius: 4px;
+                background: #FF6565;
+                color: white;
+                cursor: pointer;
+                
+                height: 40px;
+                width: 120px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            #signup_button_container button:hover {
+                opacity: 0.75;
+            }
+
+            #instructor-about {
+                display: flex;
+            }
+
+            #instructor-image {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+
+            h2 {
+                margin-bottom: 32px;
+            }
+
+            h3 {
+                margin-bottom: 24px;
+            }
+
+            .faq-entry {
+                margin-bottom: 24px;
+            }
+
+            .faq-question {
+                font-weight: 600;
+                margin-bottom: 16px;
+            }
+
+            @media screen and (max-width: 720px) {
+                nav {
+                    justify-content: center;
+                }
+                #banner {
+                    display: block;
+                }
+                #banner h1 {
+                    max-width: 100%;
+                }
+
+                #signup_button_container a {
+                    width: 100%;
+                }
+
+                #signup_button_container button {
+                    width: 100%;
+                }
+
+                #instructor-about {
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                #instructor-image {
+                    margin-bottom: 24px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="https://renzil.com">
+                <img src="assets/logo.jpg">
+            </a>
+        </nav>
+        <main>
+            <section id="banner">
+                <h1>WEB DEVELOPMENT WORKSHOP</h1>
+                <div id="signup_button_container">
+                    <img src="assets/banner.png">
+                    <a href="https://forms.gle/gBMyfwXYEr5Y8EGB6" target="_blank">
+                        <button>SIGN UP</button>
+                    </a>
+                </div>
+            </section>
+            <section id="date">
+                <h2>DATE TO BE DECIDED</h2>
+            </section>
+            <section id="description">
+                <p>
+In this 3 hour beginner-friendly workshop you will learn the fundamentals of building a website.
+<ul>
+    <li>Git & GitHub</li>
+    <li>HTML &CSS</li>
+    <li>Coding in JavaScript</li>
+    <li>Deploying websites to the Internet</li>
+</ul>
+Students who complete all of the tasks will receive a certificate of completion.
+                </p>
+            </section>
+            <section id="prerequisites">
+                <h3>WHAT YOU WILL NEED</h3>
+                <p>
+                    <ul>
+                        <li>Laptop (or desktop) with a stable internet connection and speakers (or headset)</li>
+                        <li>GitHub account. <a href="https://github.com/signup" target="_blank">Click here to create a free account.</a></li>
+                    </ul>
+                </p>
+            </section>
+            <section id="instructor">
+                <h3>ABOUT THE INSTRUCTOR</h3>
+                <div id="instructor-about">
+                    <p id="instructor-description">
+                        I have been coding since I was 13. I have spent more than a decade working for Adobe designing large software systems and have received numerous engineering awards and patents for my work. I enjoy coming up with new ideas and coding them, and I am currently helping others bring their ideas to life. Sign up for one of my upcoming workshops.
+                    </p>
+                    <img id="instructor-image" src="assets/logo.jpg">
+                </div>
+            </section>
+            <section id="faq">
+                <h3>FAQ</h3>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        What will be covered in the workshop?
+                    </p>
+                    <p class="faq-answer">
+                        This workshop is designed for students with no prior knowledge of programming. In 3 hours I will give you a complete overview of Git, HTML, CSS & JavaScript - enough for you to get started as a web developer.
+                    </p>
+                </div>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        Are there any pre-requisites for attending the workshop?
+                    </p>
+                    <p class="faq-answer">
+                        You will need to have a laptop (or desktop) with a stable internet connection, speakers and mic. You will also need to <a href="https://github.com/signup" target="_blank">sign up for a free GitHub account</a>.
+                    </p>
+                </div>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        How much does the workshop cost?
+                    </p>
+                    <p class="faq-answer">
+                        The workshop is provided to you free of cost.
+                    </p>
+                </div>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        Will I get a certificate of completion?
+                    </p>
+                    <p class="faq-answer">
+                        Yes. Students who attend the workshop and complete all the tasks will earn a certificate of completion.
+                    </p>
+                </div>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        How do I register for the workshop?
+                    </p>
+                    <p class="faq-answer">
+                        <a href="https://forms.gle/gBMyfwXYEr5Y8EGB6" target="_blank">Click here to express your interest in one of my upcoming workshops.</a> I will contact you shortly with details of my upcoming workshop.
+                    </p>
+                </div>
+                <div class="faq-entry">
+                    <p class="faq-question">
+                        I have a question. How can I contact you?
+                    </p>
+                    <p class="faq-answer">
+                        Please reach out to me at renzil@renzil.com with any questions.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
